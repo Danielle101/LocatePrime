@@ -27,6 +27,13 @@ public class LocatePrimeAppTest {
 		public void test5() {
 			assertEquals(true,PrimeMethod.isPrime(47));
 		}
+		@Test
+		public void test6() {
+			assertEquals(true,PrimeMethod.isPrime(23));
+		}		@Test
+		public void test7() {
+			assertEquals(true,PrimeMethod.isPrime(101));
+		}
 		
 
 	}
